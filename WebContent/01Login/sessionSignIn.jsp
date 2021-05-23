@@ -94,7 +94,7 @@
  
                             <tr>
                                 <td>생년월일</td>
-                                <td><input name="birthday" size="20"> ex)830815
+                                <td><input name="birthday" size="20"> ex)000101
                                 <br>생년월일을 적어 주세요.</td>
                             </tr>
  
