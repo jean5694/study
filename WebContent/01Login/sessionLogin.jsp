@@ -26,9 +26,17 @@
 <body>
 <div class="container">
 	
-	로그인에 성공했습니다.
+	<script>
+	alert("로그인에 성공했습니다.");
+	</script>
+	<%= id%>님 반갑습니다.	
+
+
+	<br>
+	<br>
 	
-	<a href="sessionLogout.jsp">로그아웃</a>
+	<button type="button" onclick=" location.href='sessionLogout.jsp' " class="btn btn-primary">Logout</button>
+	
 	
 </div>
 </body>
