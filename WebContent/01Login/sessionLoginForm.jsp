@@ -15,11 +15,12 @@
 <title>로그인 폼</title>
 </head>
 <body>
-	<div class="container">
-		<div class="mb-3 row">
+	<div class="container ">
+	
+		<div class="mt-5 row" >
 			<form action="<%=request.getContextPath()%>/01Login/sessionLogin.jsp"
 				method="post">
-				<div class="mb-3">
+				<div class="mb-3" >
 				<label for="InputID" class="form-label">ID</label>
 				<input type="text" name="id" class="form-control" id="InputID" class="form-control" >
 				</div>
@@ -28,6 +29,7 @@
 				<input type="password" name="password" id="InputPassword" class="form-control">
 				</div>
 				<button type="submit" class="btn btn-primary" >Login</button>
+				<button type="button" onclick=" location.href='sessionSignIn.jsp' " class="btn btn-primary">Sign In</button>
 			</form>
 		</div>
 

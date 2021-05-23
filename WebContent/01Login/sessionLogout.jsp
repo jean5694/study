@@ -19,11 +19,14 @@
 </head>
 <body>
 <div class="container">
-	로그아웃하였습니다.
+	<script> 
+	alert("로그아웃하였습니다.");
+	location.href = "sessionLoginForm.jsp";
+	</script>
 	
-	<%
-	response.sendRedirect("sessionLoginForm.jsp");
-	%>
+	<%--
+	response.sendRedirect("sessionLoginForm.jsp"); //경고창 알림 없이 바로 넘어가서 스크립트로 대체함
+	--%>
 </div>
 </body>
 </html>

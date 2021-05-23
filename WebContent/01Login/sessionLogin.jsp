@@ -34,6 +34,10 @@
 
 	<br>
 	<br>
+	<%
+    session.setMaxInactiveInterval(1*60); // 초 단위
+%>
+	
 	
 	<button type="button" onclick=" location.href='sessionLogout.jsp' " class="btn btn-primary">Logout</button>
 	
