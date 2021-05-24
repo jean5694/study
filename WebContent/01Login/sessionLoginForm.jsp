@@ -29,7 +29,7 @@
 				<input type="password" name="password" id="InputPassword" class="form-control">
 				</div>
 				<button type="submit" class="btn btn-primary" >Login</button>
-				<button type="button" onclick=" location.href='sessionSignIn.jsp' " class="btn btn-primary">Sign In</button>
+				<button type="button" onclick=" location.href='sessionJoin.jsp' " class="btn btn-primary">Join</button>
 			</form>
 		</div>
 

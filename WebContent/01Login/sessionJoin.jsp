@@ -42,7 +42,7 @@
                 <!-- cellspacing는 테이블의 외곽과 셸의 경계면의 두께를 설정, cellpadding는 셸과 내용의 사이를 지정하는 태그 -->
  
 
-                <tr>
+                <tr> 
                     <td align="center" valign="middle" >
                         <table border="1" cellspacing="0" cellpadding="2" align="center"
                             width="600"> 

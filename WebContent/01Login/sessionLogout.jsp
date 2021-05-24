@@ -17,7 +17,7 @@
 
 <title>로그아웃</title>
 </head>
-<body>
+<body> 
 <div class="container">
 	<script> 
 	alert("로그아웃하였습니다.");

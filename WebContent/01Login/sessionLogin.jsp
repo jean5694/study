@@ -28,7 +28,7 @@
 	
 	<script>
 	alert("로그인에 성공했습니다.");
-	</script>
+	</script> 
 	<%= id%>님 반갑습니다.	
 
 
